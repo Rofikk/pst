@@ -1,0 +1,56 @@
+#container2 {
+    width: 1530px;
+    height: 1300px;
+    border-style: solid;
+    border-width:2px;
+    font-size:.8em;
+}
+#header {
+	width: 1530px;
+	text-align: center;	
+	
+}
+
+#left {
+    float: left;
+    width: 500px;
+    height: 1300px;
+    border-style: solid;
+    border-width:1px;
+    padding: 0px 10px 0px 0px;
+    overflow: hidden;
+}
+
+#center {
+    width: 500px;
+    height: 1300px;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    overflow: hidden;
+
+}
+
+#right {
+    float: left;
+    width: 500px;
+    height: 1300px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0px 0px 0px 10px;
+    overflow: hidden;
+
+}
+#question {
+	float: right;
+	width: 420px;
+	word-wrap: normal;
+}
+#qdiv {
+	position: relative;
+
+}
+
+.clear {
+    clear: both;
+}
